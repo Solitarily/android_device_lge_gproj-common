@@ -184,11 +184,16 @@ PRODUCT_PACKAGES += \
 	libc2dcolorconvert
 
 PRODUCT_PACKAGES += \
-	libloc_adapter \
-	libloc_eng \
-	libloc_api_v02 \
-	libgps.utils \
-	gps.msm8960
+        libloc_adapter \
+        libloc_eng \
+        libloc_api_v02 \
+        libloc_ds_api \
+        libloc_core \
+        libizat_core \
+        libgeofence \
+        libgps.utils \
+        gps.msm8960 \
+        flp.msm8960
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	rild.libpath=/system/lib/libril-qc-qmi-1.so
