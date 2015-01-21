@@ -96,7 +96,7 @@ TARGET_DISPLAY_USE_RETIRE_FENCE := true
 
 BOARD_RIL_CLASS := ../../../device/lge/gproj-common/ril/
 
-BOARD_HARDWARE_CLASS := device/lge/gproj-common/cmhw/
+BOARD_HARDWARE_CLASS := device/lge/gproj-common/mkhw/
 
 TARGET_USES_LOGD := false
 BOARD_USES_LEGACY_MMAP := true
